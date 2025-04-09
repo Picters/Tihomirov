@@ -4,6 +4,8 @@ import sys
 import os
 from art import *
 
+ass = False
+
 init()
 
 os.system("cls")
@@ -79,6 +81,52 @@ def start():
 
 def schoolday1():
     sys.exit()
+    slowprint(Fore.CYAN + "Так вроде бы этот кабинет..." + Fore.RESET)
+    time.sleep(1)
+    slowprint("Василиса тоже подошла к кабинету и увидела тебя")
+    time.sleep(1)
+    slowprint(Fore.MAGENTA + f"{name} ПОСТОЙ!!!")
+    time.sleep(1)
+    slowprint("Ты обернулся и в воих глазах засияла она...")
+    print()
+    print("1. Спросить есть ли у нее парень ")
+    print(Fore.RED + "2. Лапнуть за попу" + Fore.RESET)
+    choice = int(input(": "))
+    if choice == 1:
+        slowprint(Fore.BLUE + "Слушай.. Василис.. А у тебя есть парень?" + Fore.RESET)
+        time.sleep(0.5)
+        slowprint(Fore.MAGENTA + "Ну конечно есть! А что?" + Fore.RESET)
+        time.sleep(0.5)
+        slowprint(Fore.BLUE + "Да так.. Ничего." + Fore.RESET)
+        time.sleep(0.5)
+        slowprint(Fore.MAGENTA + f"Ну ладно! Пока {name}!")
+        time.sleep(0.5)
+        slowprint(Fore.CYAN + "ЭХ СУКА НУ ПОЧЕМУ ТАК...")
+        time.sleep(0.5)
+        cabinet1()
+    elif choice == 2:
+        ass = True
+        slowprint("Ты тронул василисину задницу рукой")
+        time.sleep(1)
+        slowprint(Fore.MAGENTA + "Оу.. Сделаю вид что ничего не было)" + Fore.RESET)
+        time.sleep(1)
+        slowprint("Ты увидел как тихомиров наблюдал за вами из кабинета. Он ушел.")
+        slowprint(Fore.CYAN + "БЛЯ ПИЗДА МНЕ" + Fore.RESET)
+        time.sleep(1)
+        slowprint(Fore.BLUE + "Слушай.. Василис.. А у тебя есть парень?" + Fore.RESET)
+        time.sleep(0.5)
+        slowprint(Fore.MAGENTA + "Ну конечно есть! А что?" + Fore.RESET)
+        time.sleep(0.5)
+        slowprint(Fore.BLUE + "Да так.. Ничего." + Fore.RESET)
+        time.sleep(0.5)
+        slowprint(Fore.MAGENTA + f"Ну ладно! Пока {name}!")
+        time.sleep(0.5)
+        slowprint(Fore.CYAN + "ЭХ СУКА НУ ПОЧЕМУ ТАК...")
+        time.sleep(0.5)
+        cabinet1()
 
+def cabinet1():
+    sys.exit()
+    
 
 start()
