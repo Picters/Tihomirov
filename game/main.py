@@ -2,12 +2,12 @@ import time
 from colorama import Fore, init
 import sys
 import os
-import pyfiglet
+from art import *
 
 init()
 
 os.system("cls")
-print(pyfiglet.figlet_format("Tihomirov"))
+print(text2art("Tihomirov"))
 print("Для начала давайте ознакомимся с правилами игры.")
 print("1. Тут не будет детского порно")
 print("2. Цвет ваших мыслей выделяется " + Fore.CYAN + "ЭТИМ" + Fore.RESET + " цветом.")
