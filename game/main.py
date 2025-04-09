@@ -80,12 +80,12 @@ def start():
     else: rule5()
 
 def schoolday1():
-    sys.exit()
+    os.system("cls")
     slowprint(Fore.CYAN + "Так вроде бы этот кабинет..." + Fore.RESET)
     time.sleep(1)
     slowprint("Василиса тоже подошла к кабинету и увидела тебя")
     time.sleep(1)
-    slowprint(Fore.MAGENTA + f"{name} ПОСТОЙ!!!")
+    slowprint(Fore.MAGENTA + f"{name} ПОСТОЙ!!!" + Fore.RESET)
     time.sleep(1)
     slowprint("Ты обернулся и в воих глазах засияла она...")
     print()
@@ -99,7 +99,7 @@ def schoolday1():
         time.sleep(0.5)
         slowprint(Fore.BLUE + "Да так.. Ничего." + Fore.RESET)
         time.sleep(0.5)
-        slowprint(Fore.MAGENTA + f"Ну ладно! Пока {name}!")
+        slowprint(Fore.MAGENTA + f"Ну ладно! Пока {name}!" + Fore.RESET)
         time.sleep(0.5)
         slowprint(Fore.CYAN + "ЭХ СУКА НУ ПОЧЕМУ ТАК...")
         time.sleep(0.5)
@@ -119,7 +119,7 @@ def schoolday1():
         time.sleep(0.5)
         slowprint(Fore.BLUE + "Да так.. Ничего." + Fore.RESET)
         time.sleep(0.5)
-        slowprint(Fore.MAGENTA + f"Ну ладно! Пока {name}!")
+        slowprint(Fore.MAGENTA + f"Ну ладно! Пока {name}!" + Fore.RESET)
         time.sleep(0.5)
         slowprint(Fore.CYAN + "ЭХ СУКА НУ ПОЧЕМУ ТАК...")
         time.sleep(0.5)
@@ -127,6 +127,6 @@ def schoolday1():
 
 def cabinet1():
     sys.exit()
-    
+
 
 start()
