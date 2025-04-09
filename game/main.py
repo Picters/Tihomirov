@@ -87,7 +87,7 @@ def schoolday1():
     time.sleep(1)
     slowprint(Fore.MAGENTA + f"{name} ПОСТОЙ!!!" + Fore.RESET)
     time.sleep(1)
-    slowprint("Ты обернулся и в воих глазах засияла она...")
+    slowprint("Ты обернулся и в твоих глазах засияла она...")
     print()
     print("1. Спросить есть ли у нее парень ")
     print(Fore.RED + "2. Лапнуть за попу" + Fore.RESET)
