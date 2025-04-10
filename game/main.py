@@ -8,7 +8,7 @@ ass = False
 
 init()
 
-os.system("cls")
+clear()
 print(text2art("Tihomirov"))
 print("Для начала давайте ознакомимся с правилами игры.")
 print("1. Тут не будет детского порно")
@@ -24,12 +24,12 @@ if rules == "y":
     time.sleep(0.5)
     os.system("cls")
 elif rules == "n":
-    os.system("cls")
+    clear()
     print(Fore.RED + "Ну и иди нахуй тогда" + Fore.RESET)
     time.sleep(0.5)
     sys.exit()
 else:
-    os.system("cls")
+    clear()
     print(Fore.RED + "Ты даун?" + Fore.RESET)
     time.sleep(0.5)
     sys.exit()
@@ -42,7 +42,7 @@ if sorted(name.lower()) == sorted("Tihomirov".lower()) or sorted(name.lower()) =
 
 print(Fore.GREEN + "карина шлюха" + Fore.RESET)
 time.sleep(1)
-os.system("cls")
+clear()
 
 def slowprint(text, delay=0.05):
     for char in text:
@@ -50,8 +50,11 @@ def slowprint(text, delay=0.05):
         time.sleep(delay)
     print()
 
-def rule5():
+def clear():
     os.system("cls")
+
+def rule5():
+    clear()
     print("5. " + Fore.RED + "Нельзя выбирать несуществующие варианты." + Fore.RESET)
     time.sleep(2)
     sys.exit()
@@ -60,7 +63,7 @@ def start():
     slowprint(f"""Тебя зовут {name}, ты учишься в 7А классе в школе №7. После первого прихода в школу ты запал на Матюнину Василису и спустя несколько дней полюбил ее. 
 Ты не знаешь есть ли у нее парень или нет, но тебя будто это совсем не волновало. """, delay=0.05)
     input(Fore.YELLOW + "[ENTER]: " + Fore.RESET)
-    os.system("cls")
+    clear()
     time.sleep(2)
     print("Время: 7:48")
     print("День недели: Понедельник")
@@ -72,7 +75,7 @@ def start():
     if choice == 1:
         schoolday1()
     elif choice == 2:
-        os.system("cls")
+        clear()
         time.sleep(3)
         slowprint(Fore.RED + "Ты долбаёб?" + Fore.RESET)
         time.sleep(0.5)
@@ -80,7 +83,7 @@ def start():
     else: rule5()
 
 def schoolday1():
-    os.system("cls")
+    clear()
     slowprint(Fore.CYAN + "Так вроде бы этот кабинет..." + Fore.RESET)
     time.sleep(1)
     slowprint("Василиса тоже подошла к кабинету и увидела тебя")
